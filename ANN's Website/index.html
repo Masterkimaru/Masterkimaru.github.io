@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>ANN YUMMY BAKES</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/014467454a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            
+            <h2>Ann Yummy Bakes</h2>
+            <div class="banner">
+                <div class="blocks"></div>
+            </div>
+        </section>
+        <script>
+            const banner= document.getElementsByClassName('banner')[0];
+            const blocks= document.getElementsByClassName('blocks');
+            for (var i=1;i < 400; i++){
+                banner.innerHTML += "<div class='blocks'></div";
+                const duration = Math.random() *5;
+                blocks[i]. style.animationDelay ='${i * 0.05}s';
+
+            }
+
+
+        </script>
+        <ul id="menu">
+            <li><a href="index.html"><i class="fa-solid fa-house-chimney"></i>HOME</a></li>
+            <li><a href="#"><i class="fa-solid fa-list"></i>LIST</a>
+                <ul>
+                    <li><a href="cupcakes.html">Cup Cakes</a></li>
+                    <li><a href="cakejars.html">Cake Jars</a></li>
+                    <li><a href="strawberrydips.html">Chocolate Strawberry Dips</a></li>
+                    <li><a href="kidcakes.html">Kid Cakes</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="about.html"><i class="fa-solid fa-address-card"></i>ABOUT</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone"></i>CONTACT</a></li>
+        </ul>
+       
+       
+    </body>
+</html>

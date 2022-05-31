@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+        <title>CHOCOLATE STRAWBERRY DIPS</title>
+        <link rel="stylesheet" type="text/css" href="strawberrydipsstyle.css">
+        <script src="https://kit.fontawesome.com/014467454a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h2>Chocolate Straberry Dip Samples</h2>
+        <a href="cakejars.html" class="Previous">&laquo;Previous</a>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/strawberrydip1.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip2.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip3.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip4.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip5.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip6.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip7.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip8.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip9.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip10.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip11.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip12.jpg" alt="strawberry"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/strawberrydip13.jpg" alt="strawberry"/>
+            </div>
+        </div>
+        <a href="https://wa.me/+254795292330" class="order">ORDER NOW!</a>
+        <script type="text/javascript">
+            const buttons = document.querySelectorAll('a');
+            buttons.for(btn=> {
+                btn.addEventListener('click', function(e) {
+                    let x = e.clientX - e.target.offsetLeft;
+                    lety = e.clientY - e.target.offsetTop;
+
+                    let ripples = document.createElement('span');
+                    ripples.style.left = x + 'px';
+                    ripples.style.top = y + 'px';
+
+                    setTimeout(() => {
+                        ripples.remove()
+                    },1000);
+                    
+                })
+            })
+        </script>
+    </body>
+</html>

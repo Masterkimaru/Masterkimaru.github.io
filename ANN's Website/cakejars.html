@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+        <title>CAKE-JARS</title>
+        <link rel="stylesheet" type="text/css" href="cakejarsstyle.css">
+        <script src="https://kit.fontawesome.com/014467454a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h2>CakeJar samples</h2>
+        <a href="cupcakes.html" class="Previous">&laquo;Previous</a>
+        <a href="strawberrydips.html" class="Next">Next&raquo;</a>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/cakejar1.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar2.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar3.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar4.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar5.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar6.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar7.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar8.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar9.jpg" alt="cakejar"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cakejar10.jpg" alt="cakejar"/>
+            </div>
+        </div>
+        <a href="https://wa.me/+254795292330" class="order">ORDER NOW!</a>
+        <script type="text/javascript">
+            const buttons = document.querySelectorAll('a');
+            buttons.for(btn=> {
+                btn.addEventListener('click', function(e) {
+                    let x = e.clientX - e.target.offsetLeft;
+                    lety = e.clientY - e.target.offsetTop;
+
+                    let ripples = document.createElement('span');
+                    ripples.style.left = x + 'px';
+                    ripples.style.top = y + 'px';
+
+                    setTimeout(() => {
+                        ripples.remove()
+                    },1000);
+                    
+                })
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+        <title>CUP CAKES</title>
+        <link rel="stylesheet" type="text/css" href="cupcakesstyle.css">
+        <script src="https://kit.fontawesome.com/014467454a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h2>Cup cake samples</h2>
+        <a href="index.html" class="Homepage">&laquo;Homepage</a>
+        <a href="cakejars.html" class="Next">Next&raquo;</a>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/cupcake1.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake2.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake3.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake4.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake5.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake6.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake7.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake8.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake9.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake10.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake11.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake12.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake13.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake14.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake15.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake16.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake17.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake18.jpg" alt="cupcake"/>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cupcake19.jpg" alt="cupcake"/>
+            </div>
+        </div>
+        <a href="https://wa.me/+254795292330" class="order">ORDER NOW!</a>
+        <script type="text/javascript">
+            const buttons = document.querySelectorAll('a');
+            buttons.for(btn=> {
+                btn.addEventListener('click', function(e) {
+                    let x = e.clientX - e.target.offsetLeft;
+                    lety = e.clientY - e.target.offsetTop;
+
+                    let ripples = document.createElement('span');
+                    ripples.style.left = x + 'px';
+                    ripples.style.top = y + 'px';
+
+                    setTimeout(() => {
+                        ripples.remove()
+                    },1000);
+                    
+                })
+            })
+        </script>
+    </body>
+</html>
